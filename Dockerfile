@@ -3,7 +3,7 @@ FROM node:9
 RUN npm install -g bower -y
 #RUN npm install -g yarn -y
 RUN npm install -g cnpm --registry=https://registry.npm.taobao.org
-RUN git clone https://github.com/mgicode/ether-browser02.git
+RUN git clone https://github.com/mgicode/ether-browser02.git  -v  --progress
 
 
 WORKDIR /ether-browser02/
